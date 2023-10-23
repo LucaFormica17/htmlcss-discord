@@ -23,12 +23,16 @@ body{
 }
 
 .col{
-    
+    display: flex;
 }
 
 .content{
     width: 100%;
     display: flex;
+}
+
+.pad-bottom{
+    padding-bottom: 100px;
 }
 
 .space-bt{
@@ -126,8 +130,8 @@ header{
 
 .bg-section1{
     background-image: url('../img/bg-section1.png');
-    background-size: contain;
-    background-repeat: no repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .bg-login{
